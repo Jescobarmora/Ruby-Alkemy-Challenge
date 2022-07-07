@@ -38,7 +38,7 @@ To create a character, add the Authorization Token and the parameters:
 
 POST http://127.0.0.1:3000/api/v1/characters
 
-![CreateCharacterRC](https://user-images.githubusercontent.com/92605158/177834845-5232f87c-2aa1-4672-b3dd-cfa8b576ca25.png)
+![CreateCharacterRC](https://user-images.githubusercontent.com/92605158/177860627-d2de56b3-ba71-4fa6-8759-c7e058dac0e0.png)
 
 To get all characters, add the Authorization Token, shows Image and Name:
 
