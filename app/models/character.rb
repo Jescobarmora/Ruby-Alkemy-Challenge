@@ -9,11 +9,6 @@ class Character < ApplicationRecord
     scope :by_movie, -> movies {  
     movies_array = (movies.split(',')).map(&:to_i) 
     joins(:movies).where(movies: movies_array)
-
-    validates :name, presence: true, uniqueness:true, on: :create
-    validates :age, presence: true, on: :create
-    validates :weight, presence: true, on: :create
-    validates :storie, presence: true, on: :create
-
+        
   }
 end
