@@ -4,9 +4,9 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-        resources :movies
+        resources :movies, param: :_title
         resources :characters,  param: :_name
-        resources :genres
+        resources :genres, param: :_name
     end
   end
 end
