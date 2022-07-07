@@ -47,7 +47,7 @@ class Api::V1::MoviesController < ApplicationController
     private
   
     def find_movies
-        @movies = Movie.find_by_title!(params[:_title])
+        @movie = Movie.find_by_title!(params[:_title])
         rescue ActiveRecord::RecordNotFound
             render json: { errors: 'Movies not found' }, status: :not_found
     end
