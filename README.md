@@ -10,6 +10,10 @@ User Authentication:
 
 To use the API,you should create an user, you will receive a Welcome email:
 
+![EmaiNotificationRC](https://user-images.githubusercontent.com/92605158/177861548-a6279743-f783-4860-8e0e-d9a23aa9f7c1.png)
+
+Users CRUD:
+
 POST http://127.0.0.1:3000/users
 
 ![CreateUserRC](https://user-images.githubusercontent.com/92605158/177831418-20af3200-741a-497a-a499-fa6dab769fa9.png)
