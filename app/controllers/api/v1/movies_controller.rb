@@ -40,8 +40,8 @@ class Api::V1::MoviesController < ApplicationController
   
     # DELETE /users/{title}
     def destroy
-      @movies.destroy
-        render json: { message: @movies.title + ' was Deleted' }
+      @movie.destroy
+        render json: { message: @movie.title + ' was Deleted' }
     end
 
     private
